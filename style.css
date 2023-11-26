@@ -1,0 +1,139 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.body {
+  font-family: "Arial";
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #f0f2f4;
+  text-align: center;
+  z-index: 2;
+}
+
+.header h1 {
+  font-size: x-large;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+/* タブ基本設定 */
+.tabManeger {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.tab-link {
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin-top: 5px;
+  padding-bottom: 5px;
+  height: 22px;
+  width: calc(90% / 2);
+  position: absolute;
+  top: 0;
+  color: #000000;
+}
+
+#newMenuTab {
+  left: 2.5%;
+}
+
+#watchMenuTab {
+  right: 2.5%;
+}
+
+.tab-link.active {
+  border-bottom: 3px solid #007aff;
+}
+
+.tab-link:hover {
+  border-bottom: 3px solid #d3d3d3;
+}
+
+.tab-link.active:hover {
+  border-bottom: 3px solid #007aff;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+  position: absolute;
+  top: 95px;
+  left: 0;
+  width: calc(100% - 10px);
+  padding: 5px;
+  height: 100%;
+  z-index: 1;
+  text-align: center;
+}
+
+#preview {
+  width: 360px;
+  height: 180px;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  margin: 0;
+}
+
+.selectArea {
+  width: calc(100% - 30px);
+  height: 30px;
+  margin: 5px auto;
+}
+
+.selectArea h2 {
+  width: calc((100% - 30px) * 0.5);
+  height: 30px;
+  margin: 0;
+  float: left;
+  font-weight: normal;
+  text-align: right;
+}
+
+.selectArea select {
+  width: calc((100% - 30px) * 0.5);
+  height: 100%;
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+}
+
+input[type="text"] {
+  width: calc(100% - 30px);
+  height: 30px;
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #007aff;
+  border-radius: normal;
+  outline: none;
+}
+
+.register{
+  width: calc((100% - 30px) / 2);
+  background-color: #007aff;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 5px 0;
+  padding: 10px 0;
+  border-radius: 5px;
+}
