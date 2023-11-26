@@ -1,6 +1,6 @@
 var CACHE_NAME = 'BentoMenu';
 var urlsToCache = [
-    '/osechi-1111.github.io/BentoMenu'
+    '/osechi-1111.github.io/BentoMenu/'
 ];
 
 // インストール処理
