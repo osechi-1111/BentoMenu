@@ -1,7 +1,6 @@
 var CACHE_NAME = 'BentoMenu';
 var urlsToCache = [
-    '/BentoMenu/src/tab.js',
-    '/BentoMenu/style.css'
+    '/osechi-1111.github.io/BentoMenu'
 ];
 
 // インストール処理
