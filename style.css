@@ -4,7 +4,7 @@ html {
 }
 
 .body {
-  font-family: "Arial";
+  font-family: arial,sans-serif;
 }
 
 .header {
@@ -22,6 +22,7 @@ html {
   font-size: x-large;
   font-weight: normal;
   margin-top: 5px;
+  font-family: arial,sans-serif;
 }
 
 /* タブ基本設定 */
@@ -105,6 +106,7 @@ html {
   float: left;
   font-weight: normal;
   text-align: right;
+  font-family: arial,sans-serif;
 }
 
 .selectArea select {
